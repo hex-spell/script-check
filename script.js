@@ -8,7 +8,9 @@
     };
 
     var myAppJavaScript = function($){
-      $('.status').after('<p>HOLA MUNDO</p>');
+        $( document ).ready(function() {
+            $('.status').after('<p>HOLA MUNDO</p>');
+        });
     };
 
     // For jQuery version 1.7
