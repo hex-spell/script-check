@@ -19,9 +19,13 @@
                 class="status-content">
                 <h3 class="heading-small m-none">Hola!</h3>
                 <p class="m-top-quarter m-bottom-none">este es un mensaje de ejemplo en la Thank You Page</p>
-                <div class="custom-payment text-pre-wrap">
-                    <p class="m-bottom-none m-top-quarter"></p>
-                </div>
+                <a href="www.google.com" target="_blank">Ejemplo de link!</a>
+                <form class="custom-payment text-pre-wrap">
+                    <h3 class="heading-small m-none">Ejemplo de form</h3>
+                    <input type="text" placeholder="input pequeño" />
+                    <textarea placeholder="textarea" />
+                    <input type="submit" value="Enviar" />
+                </form>
         </div>
         `;
         $( document ).ready(function() {
