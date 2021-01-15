@@ -8,7 +8,7 @@
     };
 
     var myAppJavaScript = function($){
-      $('.status).after(`<p>HOLA MUNDO</p>`);
+      $('.status').after('<p>HOLA MUNDO</p>');
     };
 
     // For jQuery version 1.7
