@@ -19,7 +19,7 @@
                 class="status-content">
                 <h3 class="heading-small m-none">Hola!</h3>
                 <p class="m-top-quarter m-bottom-none">este es un mensaje de ejemplo en la Thank You Page</p>
-                <a href="www.google.com" target="_blank">Ejemplo de link!</a>
+                <a href="https://www.google.com" target="_blank">Ejemplo de link!</a>
                 <form class="custom-payment text-pre-wrap">
                     <h3 class="heading-small m-none">Ejemplo de form</h3>
                     <input type="text" class="form-control" placeholder="input pequeño" />
