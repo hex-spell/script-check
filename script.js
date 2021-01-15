@@ -1,9 +1,13 @@
 (function(){
     var loadScript = function(url, callback){
+     var scriptTag = document.createElement("script");
+        scriptTag.id = "agus-jquery";
+        scriptTag.src = url;
 
-      /* JavaScript that will load the jQuery library on Google's CDN.
-         We recommend this code: https://snipplr.com/view/18756/loadscript/.
-         Once the jQuery library is loaded, the callback function will be executed. */
+        scriptTag.onload = callback;
+        scriptTag.onreadystatechange = callback;
+
+        document.body.appendChild(scriptTag);
 
     };
 
