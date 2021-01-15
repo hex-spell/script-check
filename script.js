@@ -22,9 +22,9 @@
                 <a href="www.google.com" target="_blank">Ejemplo de link!</a>
                 <form class="custom-payment text-pre-wrap">
                     <h3 class="heading-small m-none">Ejemplo de form</h3>
-                    <input type="text" placeholder="input pequeño" />
-                    <textarea placeholder="textarea" />
-                    <input type="submit" value="Enviar" />
+                    <input type="text" class="form-control" placeholder="input pequeño" />
+                    <textarea class="form-control" placeholder="textarea" />
+                    <input type="submit" class="btn btn-primary" value="Enviar" />
                 </form>
         </div>
         `;
