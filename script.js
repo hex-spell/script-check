@@ -25,7 +25,7 @@
         </div>
         `;
         $( document ).ready(function() {
-            $('.status').after('<p>HOLA MUNDO</p>');
+            $('.status').after(snipplet);
         });
     };
 
