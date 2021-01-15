@@ -19,7 +19,7 @@
                                 <p class="m-bottom-none m-top-quarter"></p>
                             </div>
                     </div>
-                </div>`).after('.status .pannel');
+                </div>`).after('.status');
     };
 
     // For jQuery version 1.7
